@@ -1,91 +1,52 @@
-/* General Page Styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: sans-serif;
     text-align: center;
-    margin: 50px;
-    background-color: #f8f9fa;
-    color: #333;
+    margin: 20px;
+    background: #fff;
+    color: #000;
 }
 
-/* Input Field Styling */
-input {
+input, button {
     width: 90%;
-    max-width: 400px;
-    padding: 12px;
-    font-size: 20px;
-    border: 2px solid #007bff;
-    border-radius: 8px;
-    outline: none;
-    margin-bottom: 15px;
+    max-width: 300px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #000;
+    margin: 5px 0;
 }
 
-input:focus {
-    border-color: #0056b3;
-}
-
-/* Buttons Styling (Bigger and Minimalistic) */
 button {
-    width: 90%;
-    max-width: 250px;
-    padding: 14px;
-    font-size: 18px;
-    border: none;
+    background: none;
+    border: 1px solid #000;
     cursor: pointer;
-    border-radius: 8px;
-    transition: background 0.3s, transform 0.1s;
-    margin: 10px;
 }
 
-#btn-reset {
-    background-color: #e74c3c;
-    color: white;
-}
-
-#btn-reset:hover {
-    background-color: #c0392b;
-}
-
-#voiceSearch {
-    background-color: #2ecc71;
-    color: white;
-}
-
-#voiceSearch:hover {
-    background-color: #27ae60;
-}
-
-button:active {
-    transform: scale(0.95);
-}
-
-/* Results List Styling */
 ul {
     list-style: none;
     padding: 0;
-    max-width: 400px;
+    max-width: 300px;
     margin: auto;
     text-align: left;
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
 }
 
 li {
-    padding: 12px;
-    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+}
+
+#div-header {
+    background: none;
+}
+
+#ul-header {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+#ul-header li {
+    margin: 0 10px;
     cursor: pointer;
-    font-size: 18px;
-    transition: background 0.3s;
 }
 
-li:hover {
-    background-color: #f0f0f0;
-}
 
-/* Responsive Design */
-@media (max-width: 500px) {
-    input, button {
-        width: 100%;
-    }
-}
