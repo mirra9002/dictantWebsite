@@ -16,7 +16,7 @@ fetch('ukrainian_words_full_version.json')
 
 
 inputField.addEventListener('input', (event) => {
-    const query = event.target.value.toLowerCase();
+    const query = event.target.value.toLowerCase().trim();
     results.innerHTML = '';
 
     if(query){
