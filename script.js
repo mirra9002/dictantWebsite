@@ -72,3 +72,15 @@ buttonReset.addEventListener('click', () => {
         console.log("Voice search stopped.");
     }
 });
+
+const liAdd = document.getElementById('li-add');
+const p1 = document.getElementById('p1');
+liAdd.addEventListener('click', () => {
+    alert('Щоб додати слово, напишіть у тг @mirrachvaliuk');
+})
+
+// const liMain = document.getElementById('li-main');
+// liMain.getElementById('li-main');
+// liMain.addEventListener('click', () => {
+//     p1.style.display = "none";
+// })
